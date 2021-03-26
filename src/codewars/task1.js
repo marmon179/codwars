@@ -3,7 +3,7 @@
 //     For example, for [1, 2, 2] it should return 9 because 1^2 + 2^2 + 2^2 = 9.
 
 function squareSum(numbers){
-    return numbers.map( num => Math.pow(num,2)).reduce((acc,cur) => acc +cur)
+    return numbers.map( num => Math.pow(num,2)).reduce((acc,cur) => acc +cur,0)
 
 }
 
