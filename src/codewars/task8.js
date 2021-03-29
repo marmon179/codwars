@@ -1,12 +1,13 @@
-// Given an array of integers.
+// Given an array of integers, return a new array with each value doubled.
 //
-//     Return an array, where the first element is the count of positives numbers and the second element is sum of negative numbers.
+//     For example:
 //
-//     If the input array is empty or null, return an empty array.
+//     [1, 2, 3] --> [2, 4, 6]
 //
-//     Example
-// For input [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15], you should return [10, -65].
+// For the beginner, try to use the map method - it comes in very handy quite a lot so is a good one to know.
 
-function countPositivesSumNegatives(input) {
-    return ?;
+function maps(x){
+return x.map( t => t *2)
 }
+
+maps([1, 2, 3]) //?
