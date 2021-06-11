@@ -212,10 +212,37 @@
 // a[{name:'dfdd'}] = 'dkfjk'
 // console.log(a)
 
-var a = 10
-function yo(a) {
-     a = 100
-}
-yo(30);
-console.log(a)
+// var a = 10
+// function yo(a) {
+//      a = 100
+// }
+// yo(30);
+// console.log(a)
 
+// const name = ['alex', 'max', '444']
+
+// let name2 = name.some(n => n === 'max')
+// console.log(name2)
+//
+// let result = name.every(u => u.length > 2)
+// console.log(result)
+//
+// const str = 'Alex cool man'.indexOf('cool ')
+// console.log(str)
+
+// const result2 = name.reduce((total,el) =>{
+//      total[el] = 'hello'
+//      return total
+// },{})
+// const a = {}
+// const result3 = name.forEach(el =>{
+//      a[el] = 'Hello'
+// })
+//
+// console.log(a)
+
+let users = [
+    {name: 'alex', age: 18},
+    {name: 'max', age: 33}
+]
+const user = users
